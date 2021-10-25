@@ -1,0 +1,10 @@
+echo "Enter file"
+read str
+if test -f $str
+then echo "file exists and it is an ordinary file"
+elif test -d $ str
+then
+echo "directory file"
+else
+echo "not exist"
+fi
